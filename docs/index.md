@@ -66,7 +66,7 @@ This project aims to democratize access to valuable health data and insights, em
 
 ### Team Size
 
-- 3
+- 2
 
 ### Problem Statement
 
@@ -82,6 +82,7 @@ Glucose prediction is crucial for longevity, as both levels and variations impac
 For reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5643203/
 
 ### Personal Motivation
+Livia Zaharia -team member and type 1 diabetic since 2001:
 
 As a diabetic with extensive CGM data, I've recognized the need for a pattern-reading model to predict future glucose values. This project aims to bridge the gap in long-term data availability from non-diabetic individuals and provide valuable insights for glucose management and overall health optimization.
 
