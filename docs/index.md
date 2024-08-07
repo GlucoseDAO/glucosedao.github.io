@@ -52,10 +52,6 @@ This project aims to democratize access to valuable health data and insights, em
 
 ## Additional Information
 
-### Funding Sources
-
-- Gitcoin
-
 ### Team Size
 
 - 2
