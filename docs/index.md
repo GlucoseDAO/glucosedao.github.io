@@ -36,21 +36,13 @@ This approach aligns with recent research on privacy-preserved blood glucose lev
 
 A clear need for a DAO approach is evident. This strategy addresses the prevalent issue of user data being sold without revenue sharing. A DAO structure offers two potential solutions:
 
-### Open-source Model for Research
+### Open-source for Research
 
-A DAO can facilitate an open-source database of anonymized glucose data, promoting transparency and collaborative research. This aligns with the decentralization principle of DAOs, ensuring no single entity has total control over the data.
+A DAO can facilitate an open-source database of anonymized glucose data, promoting transparency and collaborative research while maintaining privacy of contributors. This aligns with the decentralization principle of DAOs, ensuring no single entity has total control over the data.
 
-### Commercial Model with Profit-sharing
+### Fair profit-sharing for commercial use-cases
 
-For commercial applications, smart contracts within the DAO can automate profit-sharing with data contributors. This ensures fair compensation and aligns with the enhanced transparency benefit of DAOs.
-
-### Additional Advantages of the DAO Approach
-
-- *Decentralized decision-making*: Users and stakeholders can collectively steer the direction of data use and research priorities.
-- *Global collaboration*: DAOs can unite stakeholders worldwide, facilitating international research efforts.
-- *Reduced intermediaries*: Smart contracts can automate processes, potentially lowering costs and increasing efficiency in data management.
-- *Trustless environment*: The immutable rules encoded in smart contracts create a trustworthy system for data sharing and utilization.
-- *Funding for research*: DAOs can be used to manage and fund medical research projects, allowing for more efficient resource allocation.
+For commercial applications, DAO can develop smart contracts to automate profit-sharing with data contributors to ensure fair compensation.
 
 By implementing a DAO, the glucose data ecosystem can evolve from its current centralized model to a more transparent, collaborative, and user-centric approach.
 
