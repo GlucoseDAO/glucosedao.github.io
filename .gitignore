@@ -1,0 +1,43 @@
+# node modules
+node_modules
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
+
+# Meta files
+TODOs.md
+
+# Editors
+.idea
+
+# VuePress temp directory
+.temp
+pids
+logs
+.idea/
+
+/__tests__/unit/node_modules
+/__tests__/cli/node_modules
+npm-debug.log
+coverage/
+run
+dist
+.nyc_output
+.basement
+config.local.js
+basement_dist
+.pnpm-debug.log
+demo/.vuepress/.temp
+demo/docs
+demo/.pnpm-debug.log
+demo/.vitepress/cache/
+.vitepress/cache/
+docs/.vitepress/cache/
+storybook-static/
+sandbox
+
+/dist
+/cache/*
