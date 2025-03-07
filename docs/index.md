@@ -6,7 +6,7 @@
 ## Why It Matters
 
 Recent studies have shown that glucose values are related to health and longevity, making this issue relevant to anyone interested in improving their health and lifespan, not just diabetics.
-If you would rather have a more in-depth and interactive discussion about it- use the chatbot [here] (https://glucosedao.org/).
+If you would rather have a more in-depth and interactive discussion about it- use the chatbot [here](https://glucosedao.org/).
 
 ## Glucose Values and Their Significance
 
@@ -29,7 +29,7 @@ We propose:
 
 1. *Establish a decentralized open database of blood glucose values* from Continuous Glucose Monitoring (CGM) devices. The data will be contributed by volunteers and may also include relevant health and lifestyle-related variables (diseases, weight, height, etc.).
 2. *Train models to predict blood glucose trends* and fine-tune existing public models on this data. Contribute the model and dataset to [GlucoBench benchmark](https://github.com/IrinaStatsLab/GlucoBench/).
-3. *Establish a Glucose DAO (Decentralized Autonomous Organization)* which will govern data collection and development and will also work on protocols of sharing glucose data and smart contracts that will allow participants to be rewarded in case of commercial applications. For more information about GlucoseDAO you can use the chatbot [here] (https://glucosedao.org/).
+3. *Establish a Glucose DAO (Decentralized Autonomous Organization)* which will govern data collection and development and will also work on protocols of sharing glucose data and smart contracts that will allow participants to be rewarded in case of commercial applications. For more information about GlucoseDAO you can use the chatbot [here](https://glucosedao.org/).
    
 
 This approach aligns with recent research on privacy-preserved blood glucose level cross-prediction using decentralized federated learning. (https://github.com/ChengzhePiao/coldstartbglp)
