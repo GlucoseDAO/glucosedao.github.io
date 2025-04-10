@@ -8,6 +8,14 @@
 Recent studies have shown that glucose values are related to health and longevity, making this issue relevant to anyone interested in improving their health and lifespan, not just diabetics.
 If you would rather have a more in-depth and interactive discussion about it- use the chatbot [here](https://glucosedao.org/).
 
+### In case you prefer watching videos rather than reading, here are videos about GlucoseDAO:
+
+- GlucoseDAO Pitch:
+[![first slide of the presentation of GlucoseDAO Pitch with diagram](./images/first_video.png)](https://www.youtube.com/watch?v=AlzdvK6opQc)
+
+- Glucose presentation at Zelar, Berlin
+[![Livia Zaharia presenting GlucoseDAO project at Zelar, Berlin](./images/second_video.png)](https://www.youtube.com/watch?vffCRxUsjuP0)
+
 ## Glucose Values and Their Significance
 
 Glucose levels and dynamics impact overall health and longevity, however, there are three major groups that stand out:
@@ -30,7 +38,7 @@ We propose:
 1. *Establish a decentralized open database of blood glucose values* from Continuous Glucose Monitoring (CGM) devices. The data will be contributed by volunteers and may also include relevant health and lifestyle-related variables (diseases, weight, height, etc.).
 2. *Train models to predict blood glucose trends* and fine-tune existing public models on this data. Contribute the model and dataset to [GlucoBench benchmark](https://github.com/IrinaStatsLab/GlucoBench/).
 3. *Establish a Glucose DAO (Decentralized Autonomous Organization)* which will govern data collection and development and will also work on protocols of sharing glucose data and smart contracts that will allow participants to be rewarded in case of commercial applications. For more information about GlucoseDAO you can use the chatbot [here](https://glucosedao.org/).
-   
+
 
 This approach aligns with recent research on privacy-preserved blood glucose level cross-prediction using decentralized federated learning. (https://github.com/ChengzhePiao/coldstartbglp)
 
@@ -52,6 +60,52 @@ By implementing a DAO, the glucose data ecosystem can evolve from its current ce
 
 This project aims to democratize access to valuable health data and insights, empowering individuals to make informed decisions about their health and longevity. By supporting this project, you are not only helping people with medical conditions but also paving the way for access to information that could potentially extend or at least improve your lifespan.
 
+## Our Team
+
+**Livia Zaharia**:<br>
+Team leader, T1D, ML
+<img src="./images/livia_zaharia.jpg" alt="Livia Zagaria's photo" width="250"/>
+<br><br>
+**Anton Kulaga**:<br>
+Bioinformatician, ML engineer
+<img src="./images/anton_kulaga.jpg" alt="Anton Kulaga's photo" width="250"/>
+<br><br>
+**Brandon Houten**:<br>
+DevRel, DevOps
+<img src="./images/brandon_houten.png" alt="Brandon Houten's photo" width="250"/>
+<br><br>
+**Newton Winter**:<br>
+Senior software developer, ML DevOps
+<img src="./images/newton_winter.jpg" alt="Newton Winter's photo" width="250"/>
+
+## Scientific Advisory Board
+
+**Prof. Irina Gaynanova**:<br>
+*Department of Biostatistics, University of Michigan*<br>
+Leading CGM ML expert, Founder of Awesome-CGM
+<img src="./images/gaynanova_irina.jpg" alt="Gayanova Irina's photo" width="250"/>
+<br><br>
+**Dr. Renat Sergazinov**:<br>
+*Texas A&M*<br>
+First author of Gluformer and Glucobench
+<img src="./images/renat_sergazinov.jpeg" alt="Renat Sergazinov's photo" width="250"/>
+<br><br>
+**Prof. Georg Fullen**:<br>
+*Director of IBIMA institute at Medical Centre Rostock*<br>
+Biostatistics adviser
+<img src="./images/georg_fullen.png" alt="George Fullen's photo" width="250"/>
+<br><br>
+**Dr. Virgil Ilian**:<br>
+AI adviser
+<img src="./images/virgil_ilian.jpeg" alt="Virgil Ilian's photo" width="250"/>
+
+
+
+
+
+
+
+
 ## Additional Information
 
 ### Problem Statement
@@ -71,5 +125,14 @@ For reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5643203/
 Livia Zaharia -team member and type 1 diabetic since 2001:
 
 As a diabetic with extensive CGM data, I've recognized the need for a pattern-reading model to predict future glucose values. This project aims to bridge the gap in long-term data availability from non-diabetic individuals and provide valuable insights for glucose management and overall health optimization.
+
+### Important links
+
+#### Github organisation:
+- [GlucoseDAO organization](https://github.com/GlucoseDAO)
+
+#### Projects of our freinds:
+- [Just-DNA-Seq](https://github.com/dna-seq) -  is an open-source personal genomics platform designed to unlock the secrets of your DNA.
+- [Longevity-Genie](https://github.com/longevity-genie) - is an open-source AI assistant for health, genetics, and longevity research.
 
 
