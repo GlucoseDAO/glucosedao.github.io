@@ -6,15 +6,19 @@
 ## Why It Matters
 
 Recent studies have shown that glucose values are related to health and longevity, making this issue relevant to anyone interested in improving their health and lifespan, not just diabetics.
-If you would rather have a more in-depth and interactive discussion about it- use the chatbot [here](https://glucosedao.org/).
+If you would rather have a more in-depth and interactive discussion about it - use the chatbot [here](https://glucosedao.org/).
+
+<p align="center">
+<a target="_blank" href="https://glucosedao.org/"><img alt="button on which written 'chat with out chatbot'" src="./images/button.png" /></a>
+</p>
 
 ### In case you prefer watching videos rather than reading, here are videos about GlucoseDAO:
-
-- GlucoseDAO Pitch:
+GlucoseDAO project presentation:
 [![first slide of the presentation of GlucoseDAO Pitch with diagram](./images/first_video.png)](https://www.youtube.com/watch?v=AlzdvK6opQc)
+![a diagram discribing the way GlucoseDAO is going to evolve](./images/infographics.png)
 
-- Glucose presentation at Zelar, Berlin
-[![Livia Zaharia presenting GlucoseDAO project at Zelar, Berlin](./images/second_video.png)](https://www.youtube.com/watch?vffCRxUsjuP0)
+And if you want to know more detailed information check out GlucoseDAO presentation at Zelar, Berlin:
+[![Livia Zaharia presenting GlucoseDAO project at Zelar, Berlin](./images/second_video.png)](https://www.youtube.com/watch?v=uerUE6OOgPI)
 
 ## Glucose Values and Their Significance
 
@@ -62,41 +66,49 @@ This project aims to democratize access to valuable health data and insights, em
 
 ## Our Team
 
-**Livia Zaharia**:<br>
-Team leader, T1D, ML
+### **Livia Zaharia**:
+Team leader, T1D, ML<br>
+[LinkedIn](https://www.linkedin.com/in/livia-zaharia-4b1425a0/)
 <img src="./images/livia_zaharia.jpg" alt="Livia Zagaria's photo" width="250"/>
 <br><br>
-**Anton Kulaga**:<br>
-Bioinformatician, ML engineer
+### **Anton Kulaga**:
+Bioinformatician, ML engineer<br>
+[LinkedIn](https://www.linkedin.com/in/antonkulaga/), [ORCID](https://orcid.org/0000-0001-7449-7054)
 <img src="./images/anton_kulaga.jpg" alt="Anton Kulaga's photo" width="250"/>
 <br><br>
-**Brandon Houten**:<br>
-DevRel, DevOps
+### **Brandon Houten**:
+DevRel, DevOps<br>
+[LinkedIn](https://www.linkedin.com/in/sbvh)
 <img src="./images/brandon_houten.png" alt="Brandon Houten's photo" width="250"/>
 <br><br>
-**Newton Winter**:<br>
-Senior software developer, ML DevOps
+### **Newton Winter**:
+Senior software developer, ML DevOps<br>
+[LinkedIn](https://www.linkedin.com/in/nikolai-usanov/)
 <img src="./images/newton_winter.jpg" alt="Newton Winter's photo" width="250"/>
 
 ## Scientific Advisory Board
 
-**Prof. Irina Gaynanova**:<br>
+### **Prof. Irina Gaynanova**:
 *Department of Biostatistics, University of Michigan*<br>
-Leading CGM ML expert, Founder of Awesome-CGM
+Leading CGM ML expert, Founder of Awesome-CGM<br>
+[LinkedIn](https://www.linkedin.com/in/irina-gaynanova-45628958), [ORCID](https://orcid.org/0000-0002-4116-0268)
 <img src="./images/gaynanova_irina.jpg" alt="Gayanova Irina's photo" width="250"/>
 <br><br>
-**Dr. Renat Sergazinov**:<br>
+### **Dr. Renat Sergazinov**:
 *Texas A&M*<br>
-First author of Gluformer and Glucobench
+First author of Gluformer and Glucobench<br>
+[LinkedIn](https://www.linkedin.com/in/renatsergazinov), [ORCID](https://orcid.org/0000-0001-5905-3674)
 <img src="./images/renat_sergazinov.jpeg" alt="Renat Sergazinov's photo" width="250"/>
 <br><br>
-**Prof. Georg Fullen**:<br>
+### **Prof. Georg Fullen**:
 *Director of IBIMA institute at Medical Centre Rostock*<br>
-Biostatistics adviser
+Biostatistics adviser<br>
+[LinkedIn](https://www.linkedin.com/in/georg-fuellen-4153a929), [ORCID](https://orcid.org/0000-0002-4994-9829)
 <img src="./images/georg_fullen.png" alt="George Fullen's photo" width="250"/>
 <br><br>
-**Dr. Virgil Ilian**:<br>
-AI adviser
+### **Dr. Virgil Ilian**:
+AI adviser<br>
+[LinkedIn](https://www.linkedin.com/in/virgil-ilian-ai)
 <img src="./images/virgil_ilian.jpeg" alt="Virgil Ilian's photo" width="250"/>
 
 
@@ -122,7 +134,7 @@ Glucose prediction is crucial for longevity, as both levels and variations impac
 For reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5643203/
 
 ### Personal Motivation
-Livia Zaharia -team member and type 1 diabetic since 2001:
+Livia Zaharia - team member and type 1 diabetic since 2001:
 
 As a diabetic with extensive CGM data, I've recognized the need for a pattern-reading model to predict future glucose values. This project aims to bridge the gap in long-term data availability from non-diabetic individuals and provide valuable insights for glucose management and overall health optimization.
 
@@ -131,7 +143,7 @@ As a diabetic with extensive CGM data, I've recognized the need for a pattern-re
 #### Github organisation:
 - [GlucoseDAO organization](https://github.com/GlucoseDAO)
 
-#### Projects of our freinds:
+#### Projects of our friends:
 - [Just-DNA-Seq](https://github.com/dna-seq) -  is an open-source personal genomics platform designed to unlock the secrets of your DNA.
 - [Longevity-Genie](https://github.com/longevity-genie) - is an open-source AI assistant for health, genetics, and longevity research.
 
