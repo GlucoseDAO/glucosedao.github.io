@@ -11,7 +11,7 @@ export default defineConfig({
     ],
     sidebar: [
     ],
-    logo: '/images/logo.png',
+    logo: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/logo.png?raw=true',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/glucoseDAO/' },
       { icon: 'twitter', link: 'https://x.com/glucosedao2024' },
@@ -22,5 +22,5 @@ export default defineConfig({
     ]
   },
   base: '/',
-  head: [['link', { rel: 'icon', href: '/images/logo.png'}]],
+  head: [['link', { rel: 'icon', href: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/logo.png?raw=true'}]],
 })
