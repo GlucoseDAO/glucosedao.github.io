@@ -63,60 +63,97 @@ By implementing a DAO, the glucose data ecosystem can evolve from its current ce
 ## Benefits
 
 This project aims to democratize access to valuable health data and insights, empowering individuals to make informed decisions about their health and longevity. By supporting this project, you are not only helping people with medical conditions but also paving the way for access to information that could potentially extend or at least improve your lifespan.
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers,
+  VPTeamPageSection
+} from 'vitepress/theme'
+const team_members = [
+  {
+    avatar: './images/livia_zaharia.jpg',
+    name: 'Livia Zaharia',
+    title: 'Team leader, T1D, ML',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/livia-zaharia-4b1425a0/' }]
+  },
+    {
+    avatar: './images/anton_kulaga.jpg',
+    name: 'Anton Kulaga',
+    title: 'Bioinformatician, ML engineer',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/antonkulaga/' },
+      { icon: {svg:'<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><circle cx="512" cy="512" r="512" style="fill:#a6ce39"/><path d="M373.7 709.3h-50.4V358.5h50.4v350.8zm74-350.8h136.2c129.7 0 186.7 92.7 186.7 175.5 0 90.1-70.4 175.5-186 175.5H447.7v-351zm50.4 305.6h80.2c114.3 0 140.5-86.8 140.5-130 0-70.4-44.9-130-143.1-130h-77.6v260zM381.6 285.5c0 18-14.7 33.1-33.1 33.1-18.3 0-33.1-15.1-33.1-33.1 0-18.3 14.7-33.1 33.1-33.1 18.3 0 33.1 15.1 33.1 33.1z" style="fill:#fff"/></svg>'}, link: 'https://orcid.org/0000-0001-7449-7054' }, ]
+  },
+      {
+    avatar: './images/brandon_houten.png',
+    name: 'Brandon Houten',
+    title: 'DevRel, DevOps',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/sbvh' }, ]
+  },
+      {
+    avatar: './images/newton_winter.jpg',
+    name: 'Newton Winter',
+    title: 'Bioinformatician, ML engineer',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/antonkulaga/' },
+     ]
+  },
+]
 
-## Our Team
-
-### **Livia Zaharia**:
-Team leader, T1D, ML<br>
-[LinkedIn](https://www.linkedin.com/in/livia-zaharia-4b1425a0/)
-<img src="./images/livia_zaharia.jpg" alt="Livia Zagaria's photo" width="250"/>
-<br><br>
-### **Anton Kulaga**:
-Bioinformatician, ML engineer<br>
-[LinkedIn](https://www.linkedin.com/in/antonkulaga/), [ORCID](https://orcid.org/0000-0001-7449-7054)
-<img src="./images/anton_kulaga.jpg" alt="Anton Kulaga's photo" width="250"/>
-<br><br>
-### **Brandon Houten**:
-DevRel, DevOps<br>
-[LinkedIn](https://www.linkedin.com/in/sbvh)
-<img src="./images/brandon_houten.png" alt="Brandon Houten's photo" width="250"/>
-<br><br>
-### **Newton Winter**:
-Senior software developer, ML DevOps<br>
-[LinkedIn](https://www.linkedin.com/in/nikolai-usanov/)
-<img src="./images/newton_winter.jpg" alt="Newton Winter's photo" width="250"/>
-
-## Scientific Advisory Board
-
-### **Prof. Irina Gaynanova**:
-*Department of Biostatistics, University of Michigan*<br>
-Leading CGM ML expert, Founder of Awesome-CGM<br>
-[LinkedIn](https://www.linkedin.com/in/irina-gaynanova-45628958), [ORCID](https://orcid.org/0000-0002-4116-0268)
-<img src="./images/gaynanova_irina.jpg" alt="Gayanova Irina's photo" width="250"/>
-<br><br>
-### **Dr. Renat Sergazinov**:
-*Texas A&M*<br>
-First author of Gluformer and Glucobench<br>
-[LinkedIn](https://www.linkedin.com/in/renatsergazinov), [ORCID](https://orcid.org/0000-0001-5905-3674)
-<img src="./images/renat_sergazinov.jpeg" alt="Renat Sergazinov's photo" width="250"/>
-<br><br>
-### **Prof. Georg Fullen**:
-*Director of IBIMA institute at Medical Centre Rostock*<br>
-Biostatistics adviser<br>
-[LinkedIn](https://www.linkedin.com/in/georg-fuellen-4153a929), [ORCID](https://orcid.org/0000-0002-4994-9829)
-<img src="./images/georg_fullen.png" alt="George Fullen's photo" width="250"/>
-<br><br>
-### **Dr. Virgil Ilian**:
-AI adviser<br>
-[LinkedIn](https://www.linkedin.com/in/virgil-ilian-ai)
-<img src="./images/virgil_ilian.jpeg" alt="Virgil Ilian's photo" width="250"/>
-
-
-
-
-
-
-
+const advisory_board = [
+    {
+    avatar: './images/gaynanova_irina.jpg',
+    name: 'Prof. Irina Gaynanova',
+    desc: 'Department of Biostatistics, University of Michigan',
+    title: 'Leading CGM ML expert, Founder of Awesome-CGM',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/irina-gaynanova-45628958' },
+      { icon: {svg:'<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><circle cx="512" cy="512" r="512" style="fill:#a6ce39"/><path d="M373.7 709.3h-50.4V358.5h50.4v350.8zm74-350.8h136.2c129.7 0 186.7 92.7 186.7 175.5 0 90.1-70.4 175.5-186 175.5H447.7v-351zm50.4 305.6h80.2c114.3 0 140.5-86.8 140.5-130 0-70.4-44.9-130-143.1-130h-77.6v260zM381.6 285.5c0 18-14.7 33.1-33.1 33.1-18.3 0-33.1-15.1-33.1-33.1 0-18.3 14.7-33.1 33.1-33.1 18.3 0 33.1 15.1 33.1 33.1z" style="fill:#fff"/></svg>'}, link: 'https://orcid.org/0000-0002-4116-0268' }, ]
+  },
+    {
+    avatar: './images/renat_sergazinov.jpeg',
+    name: 'Dr. Renat Sergazinov',
+    desc:'Texas A&M',
+    title: 'First author of Gluformer and Glucobench',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/renatsergazinov' },
+      { icon: {svg:'<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><circle cx="512" cy="512" r="512" style="fill:#a6ce39"/><path d="M373.7 709.3h-50.4V358.5h50.4v350.8zm74-350.8h136.2c129.7 0 186.7 92.7 186.7 175.5 0 90.1-70.4 175.5-186 175.5H447.7v-351zm50.4 305.6h80.2c114.3 0 140.5-86.8 140.5-130 0-70.4-44.9-130-143.1-130h-77.6v260zM381.6 285.5c0 18-14.7 33.1-33.1 33.1-18.3 0-33.1-15.1-33.1-33.1 0-18.3 14.7-33.1 33.1-33.1 18.3 0 33.1 15.1 33.1 33.1z" style="fill:#fff"/></svg>'}, link: 'https://orcid.org/0000-0001-5905-3674' }, ]
+  },
+      {
+    avatar: './images/georg_fullen.png',
+    name: 'Prof. Georg Fullen',
+    desc: 'Director of IBIMA institute at Medical Centre Rostock',
+    title: 'Biostatistics adviser',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/georg-fuellen-4153a929' },
+      { icon: {svg:'<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><circle cx="512" cy="512" r="512" style="fill:#a6ce39"/><path d="M373.7 709.3h-50.4V358.5h50.4v350.8zm74-350.8h136.2c129.7 0 186.7 92.7 186.7 175.5 0 90.1-70.4 175.5-186 175.5H447.7v-351zm50.4 305.6h80.2c114.3 0 140.5-86.8 140.5-130 0-70.4-44.9-130-143.1-130h-77.6v260zM381.6 285.5c0 18-14.7 33.1-33.1 33.1-18.3 0-33.1-15.1-33.1-33.1 0-18.3 14.7-33.1 33.1-33.1 18.3 0 33.1 15.1 33.1 33.1z" style="fill:#fff"/></svg>'}, link: 'https://orcid.org/0000-0002-4994-9829' }, ]
+  },
+      {
+    avatar: './images/virgil_ilian.jpeg',
+    name: 'Dr. Virgil Ilian',
+    title: 'AI adviser',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/virgil-ilian-ai' }, ]
+  }
+]
+</script>
+<VPTeamPage>
+  <VPTeamPageSection>
+    <template #title>Our Team</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="team_members" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection>
+    <template #title>Scientific Advisory Board</template>
+    <template #members>
+      <VPTeamMembers size="medium" :members="advisory_board" />
+    </template>
+  </VPTeamPageSection>
+</VPTeamPage>
 
 ## Additional Information
 
