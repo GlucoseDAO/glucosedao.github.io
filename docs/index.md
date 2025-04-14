@@ -72,14 +72,14 @@ import {
 } from 'vitepress/theme'
 const team_members = [
   {
-    avatar: './images/livia_zaharia.jpg',
+    avatar: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/livia_zaharia.jpg?raw=true',
     name: 'Livia Zaharia',
     title: 'Team leader, T1D, ML',
     links: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/livia-zaharia-4b1425a0/' }]
   },
     {
-    avatar: './images/anton_kulaga.jpg',
+    avatar: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/anton_kulaga.jpg?raw=true',
     name: 'Anton Kulaga',
     title: 'Bioinformatician, ML engineer',
     links: [
@@ -87,14 +87,14 @@ const team_members = [
       { icon: {svg:'<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><circle cx="512" cy="512" r="512" style="fill:#a6ce39"/><path d="M373.7 709.3h-50.4V358.5h50.4v350.8zm74-350.8h136.2c129.7 0 186.7 92.7 186.7 175.5 0 90.1-70.4 175.5-186 175.5H447.7v-351zm50.4 305.6h80.2c114.3 0 140.5-86.8 140.5-130 0-70.4-44.9-130-143.1-130h-77.6v260zM381.6 285.5c0 18-14.7 33.1-33.1 33.1-18.3 0-33.1-15.1-33.1-33.1 0-18.3 14.7-33.1 33.1-33.1 18.3 0 33.1 15.1 33.1 33.1z" style="fill:#fff"/></svg>'}, link: 'https://orcid.org/0000-0001-7449-7054' }, ]
   },
       {
-    avatar: './images/brandon_houten.png',
+    avatar: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/brandon_houten.png?raw=true',
     name: 'Brandon Houten',
     title: 'DevRel, DevOps',
     links: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/sbvh' }, ]
   },
       {
-    avatar: './images/newton_winter.jpg',
+    avatar: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/newton_winter.jpg?raw=true',
     name: 'Newton Winter',
     title: 'Bioinformatician, ML engineer',
     links: [
@@ -105,7 +105,7 @@ const team_members = [
 
 const advisory_board = [
     {
-    avatar: './images/gaynanova_irina.jpg',
+    avatar: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/gaynanova_irina.jpg?raw=true',
     name: 'Prof. Irina Gaynanova',
     desc: 'Department of Biostatistics, University of Michigan',
     title: 'Leading CGM ML expert, Founder of Awesome-CGM',
@@ -114,7 +114,7 @@ const advisory_board = [
       { icon: {svg:'<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><circle cx="512" cy="512" r="512" style="fill:#a6ce39"/><path d="M373.7 709.3h-50.4V358.5h50.4v350.8zm74-350.8h136.2c129.7 0 186.7 92.7 186.7 175.5 0 90.1-70.4 175.5-186 175.5H447.7v-351zm50.4 305.6h80.2c114.3 0 140.5-86.8 140.5-130 0-70.4-44.9-130-143.1-130h-77.6v260zM381.6 285.5c0 18-14.7 33.1-33.1 33.1-18.3 0-33.1-15.1-33.1-33.1 0-18.3 14.7-33.1 33.1-33.1 18.3 0 33.1 15.1 33.1 33.1z" style="fill:#fff"/></svg>'}, link: 'https://orcid.org/0000-0002-4116-0268' }, ]
   },
     {
-    avatar: './images/renat_sergazinov.jpeg',
+    avatar: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/renat_sergazinov.jpeg?raw=true',
     name: 'Dr. Renat Sergazinov',
     desc:'Texas A&M',
     title: 'First author of Gluformer and Glucobench',
@@ -123,7 +123,7 @@ const advisory_board = [
       { icon: {svg:'<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><circle cx="512" cy="512" r="512" style="fill:#a6ce39"/><path d="M373.7 709.3h-50.4V358.5h50.4v350.8zm74-350.8h136.2c129.7 0 186.7 92.7 186.7 175.5 0 90.1-70.4 175.5-186 175.5H447.7v-351zm50.4 305.6h80.2c114.3 0 140.5-86.8 140.5-130 0-70.4-44.9-130-143.1-130h-77.6v260zM381.6 285.5c0 18-14.7 33.1-33.1 33.1-18.3 0-33.1-15.1-33.1-33.1 0-18.3 14.7-33.1 33.1-33.1 18.3 0 33.1 15.1 33.1 33.1z" style="fill:#fff"/></svg>'}, link: 'https://orcid.org/0000-0001-5905-3674' }, ]
   },
       {
-    avatar: './images/georg_fullen.png',
+    avatar: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/georg_fullen.png?raw=true',
     name: 'Prof. Georg Fullen',
     desc: 'Director of IBIMA institute at Medical Centre Rostock',
     title: 'Biostatistics adviser',
@@ -132,7 +132,7 @@ const advisory_board = [
       { icon: {svg:'<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><circle cx="512" cy="512" r="512" style="fill:#a6ce39"/><path d="M373.7 709.3h-50.4V358.5h50.4v350.8zm74-350.8h136.2c129.7 0 186.7 92.7 186.7 175.5 0 90.1-70.4 175.5-186 175.5H447.7v-351zm50.4 305.6h80.2c114.3 0 140.5-86.8 140.5-130 0-70.4-44.9-130-143.1-130h-77.6v260zM381.6 285.5c0 18-14.7 33.1-33.1 33.1-18.3 0-33.1-15.1-33.1-33.1 0-18.3 14.7-33.1 33.1-33.1 18.3 0 33.1 15.1 33.1 33.1z" style="fill:#fff"/></svg>'}, link: 'https://orcid.org/0000-0002-4994-9829' }, ]
   },
       {
-    avatar: './images/virgil_ilian.jpeg',
+    avatar: 'https://github.com/GlucoseDAO/glucosedao.github.io/blob/main/docs/images/virgil_ilian.jpeg?raw=true',
     name: 'Dr. Virgil Ilian',
     title: 'AI adviser',
     links: [
