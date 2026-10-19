@@ -26,3 +26,5 @@ The team and advisory-board names follow the supplied 2026 project deck, with ro
 The BGI Nexus acknowledgement links to the [funder's project listing](https://bginexus.io/sponsored-projects/glucosedao). The open-source initiative and startup in development are described separately, without promising that all future commercial work will be open source.
 
 Research figures describe a local MetaboNet development benchmark, not clinical validation or an external competition ranking. The expandable explanation on the site names the model, population and evaluation context.
+
+The portraits of Nikolay Usanov and Alex Karmazin come from their named profiles on the [Longevity Genie team page](https://longevity-genie.github.io/about_us.html). Their team cards link to the LinkedIn profiles supplied by the project owner. The hero uses actual GlucoPhone and GlucoWatch screenshots with synthetic demo data.
