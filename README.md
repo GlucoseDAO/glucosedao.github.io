@@ -28,3 +28,5 @@ The BGI Nexus acknowledgement links to the [funder's project listing](https://bg
 Research figures describe a local MetaboNet development benchmark, not clinical validation or an external competition ranking. The expandable explanation on the site names the model, population and evaluation context.
 
 The portraits of Nikolay Usanov and Alex Karmazin come from their named profiles on the [Longevity Genie team page](https://longevity-genie.github.io/about_us.html). Their team cards link to the LinkedIn profiles supplied by the project owner. The hero uses actual GlucoPhone and GlucoWatch screenshots with synthetic demo data.
+
+The Azuga 21k activity report is a real GlucoPhone-generated report supplied by the project owner for this website. It is labelled separately from the synthetic application screenshots. The report distinguishes calculated basal estimates from independently measured delivery.
